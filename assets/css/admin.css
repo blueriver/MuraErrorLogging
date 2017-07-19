@@ -1,0 +1,43 @@
+/* CSS Document */
+.plugin-admin-container .header {
+	padding-bottom: 15px;
+}
+
+dt.itemHeader{
+    margin-top: 15px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    border: 1px solid lightgrey;
+    border-width: 0 0 1px 0
+}
+
+dd#errorData, dd#systemData{
+    font-size: 1.2em
+}
+
+div.-lucee-dump {
+	width: 100%;
+	overflow: scroll;
+    border: 2px solid #333333
+}
+
+div.-lucee-dump table:first {
+    width: 100%;
+    table-layout: fixed;
+	font-size: 1em
+}
+
+.-lucee-dump td.h1, .-lucee-dump td.h2 {
+	font-size: 1em
+}
+
+.-lucee-dump table td, .-lucee-dump table td table td table td table td {
+    word-wrap: break-word;         /* All browsers since IE 5.5+ */
+    overflow-wrap: break-word;     /* Renamed property in CSS3 draft spec */
+    /* css-3 */
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+}

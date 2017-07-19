@@ -1,0 +1,1 @@
+nodedump = require('nodedump').dump;

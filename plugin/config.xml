@@ -1,0 +1,28 @@
+<plugin>
+	<name>Logger</name>
+	<package>logger</package>
+	<directoryFormat>packageOnly</directoryFormat>
+	<version>1.17.4.7</version>
+	<provider>Blue River</provider>
+	<providerURL>http://www.blueriver.com</providerURL>
+	<category>Application</category>
+	<autoDeploy>true</autoDeploy>
+	<siteID>default</siteID>
+	<settings>
+	 	<setting>
+			<name>plMode</name>
+			<label>Plugin Mode</label>
+			<type>Select</type>
+			<defaultvalue>Development</defaultvalue>
+			<optionlist>Development^Production</optionlist>
+		</setting>
+	</settings>
+
+	<eventHandlers>
+		<eventHandler event="onApplicationLoad" component="handler.mura" persist="true" />
+	</eventHandlers>
+
+	<scripts></scripts>
+
+	<displayobjects location="global"></displayobjects>
+</plugin>
